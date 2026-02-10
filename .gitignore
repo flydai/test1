@@ -1,0 +1,8 @@
+# Assignment context:
+# This repo is a starter for improving an offline LLM intake pipeline.
+# Keep generated/cache files out of git so reviewers focus on source + tests.
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
