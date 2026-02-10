@@ -2,9 +2,6 @@
 
 Offline-first Python starter project for a **multi-step legal intake pipeline** (prenup/postnup).
 
-## Who This Is For
-Final-year undergraduate Computer Science students who already know Python basics, JSON, and unit testing.
-
 ## Project Objective
 You are given a starter pipeline that turns free-form user text into structured intake JSON.
 Your job is to improve reliability and safety while preserving the output contract.
@@ -33,7 +30,8 @@ Every run must return:
 }
 ```
 
-## Student Task (Main Assignment)
+## Task (Main Assignment)
+CODE IS NOT STRICTLY EXPECTED A WORKFLOW DOCUMENT WILL ALSO DO
 Improve robustness and safety of the pipeline:
 - Handle contradictions across turns/history.
 - Make parser resilient to malformed model output.
@@ -76,8 +74,3 @@ python -m app.run --provider ollama --text "Need a postnup in NY..."
 pytest -q
 ```
 
-## Suggested Evaluation Focus
-- Correctness of structured output
-- Safety/policy behavior
-- Robust error handling
-- Test quality and coverage of edge cases
